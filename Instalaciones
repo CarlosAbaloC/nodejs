@@ -1,0 +1,15 @@
+Hemos hecho 
+
+
+1
+
+2
+
+3
+
+4 Instalamos morgan para ver todas las peticiones que se hagan a nuestras rutas
+
+
+5 Instalamos bcrypt para encriptar las contraseñas que enviamos a la base de datos: npm i bcrypt
+
+6 Instalamos jsonwebtoken para asignar el token: npm i jsonwebtoken
