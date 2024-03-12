@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/juegos", "dest": "/api/juegos" },
+      { "src": "/api/empresas", "dest": "/api/empresas" },
+      { "src": "/api/auth", "dest": "/api/auth" },
+      { "src": "/(.*)", "dest": "/app.js" }
+    ]
+  }
